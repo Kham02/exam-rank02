@@ -63,7 +63,6 @@ int	get_next_line(char **line)
 		i++;
 	}
 	(*line)[i] = '\0';
-	printf("%d\n", count_read);
 	return (count_read);
 }
 
